@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name=""vieport"content="width=device-width,intial-scale=1.0">
+            <title>user registration form</title>
+            <style>
+                form {
+                    margin:20px auto;
+                    width:300px;
+                    border:1px solid;
+                    padding:20px;
+                    border-radius:5px;
+                }
+                input[type="text"],input[type="email"],input[type"submit"] {
+                    width:100%;
+                    margin-bottom:10px;
+                    padding:8px;
+                    box-sizing:border-box;
+                    border-radius:3px;
+                    border:1px solid;
+                }
+                input[type"submit"]{
+                    background-color:50;
+                    color:white;
+                    cursor:pointer;
+                
+                }
+                input[type="submit"]:hover{
+                    background-color:049;
+                }              
+            </style>
+        </head>
+        <body>
+            <form action="submit.php"method="post">
+                <label for="name">Name:</label>
+                <input type="text"id="name" name="name" reqired>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" requied>
+                <input type="submit" value="register">
+            </form>
+               </body>
+               </html>
